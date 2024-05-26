@@ -21,6 +21,6 @@ Clone the repository:
 git clone https://github.com/your-username/movie-list-app--bansira.git
 cd your-repo-name
 npm install
-npm start Or npm run anroid
+npm start Or npm run android
 
 
