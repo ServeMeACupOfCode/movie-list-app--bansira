@@ -4,6 +4,7 @@ import { View, Linking } from "react-native";
 import Header from "../components/Header";
 import MovieList from "../components/MovieList";
 import LoadingIndicator from "../components/LoadingIndicator";
+import { TMDB_API_KEY } from "../../env";
 
 type Movie = {
   rank: number;
@@ -42,8 +43,7 @@ const HomeScreen: React.FC = () => {
         method: "GET",
         url: "https://imdb-top-100-movies.p.rapidapi.com/",
         headers: {
-          "X-RapidAPI-Key":
-            "0e67c8963bmshc02839e5bf84603p1e4c8ajsn2bae34beb053",
+          "X-RapidAPI-Key": TMDB_API_KEY,
           "X-RapidAPI-Host": "imdb-top-100-movies.p.rapidapi.com",
         },
       };
