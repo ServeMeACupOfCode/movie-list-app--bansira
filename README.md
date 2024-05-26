@@ -18,7 +18,7 @@ LoadingIndicator: Shows a loading indicator when data is being fetched.
 
 Installation
 Clone the repository:
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/your-username/movie-list-app--bansira.git
 cd your-repo-name
 npm install
 npm start Or npm run anroid
