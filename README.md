@@ -24,3 +24,8 @@ npm install
 npm start Or npm run android
 
 
+API Key Setup
+Sign Up: Go to [RapidAPI](https://rapidapi.com/rapihub-rapihub-default/api/imdb-top-100-movies/) and sign up.
+Get API Key: Subscribe to the required API and copy your key from the "API Keys" section.
+Update .env File: Open .env in the root directory and replace YOUR_RAPIDAPI_KEY_HERE with your key:
+Replace Key if Needed: If your key is exhausted, get a new one and update the .env file.
